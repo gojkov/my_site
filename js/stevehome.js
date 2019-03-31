@@ -14,14 +14,6 @@ $("ion-icon").on("mouseout", function(){
     $(this).css("color", "ivory");
 });
 
-$(".nav-item").on("mouseover", function(){
-    $(this).css("color", "#d4af37");
-});
-
-$(".nav-item").on("mouseout", function(){
-    $(this).css("color", "ivory");
-});
-
 $(".navbar-brand").on("mouseover", function(){
     $(this).css("transform", "scale(1.4)");
 });
