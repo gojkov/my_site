@@ -6,6 +6,12 @@ body {
 	color: ivory;
 }
 
+@media screen and (max-width: 540px) {
+	body {
+		background-image: url('../img/detroit-mobile.jpg');
+	}
+}
+
 ion-icon {
 	transform: scale(2);
 	margin: .5rem;
