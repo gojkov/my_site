@@ -90,6 +90,7 @@
     "url": "git+https://github.com/tapio/live-server.git"
   },
   "scripts": {
+    "start": "node index.html",
     "compile:sass": "node-sass sass/main.scss css/stevehome.css -w",
     "hint": "jshint live-server.js index.js",
     "lint": "eslint live-server.js index.js",
